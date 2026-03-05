@@ -163,7 +163,7 @@ config.set('content.notifications.enabled', True, 'https://www.youtube.com')
 # Directory to save downloads to. If unset, a sensible OS-specific
 # default is used.
 # Type: Directory
-c.downloads.location.directory = '/home/subtle/Downloads'
+c.downloads.location.directory = '/home/Develop/Downloads'
 
 # When to show the tab bar.
 # Type: String
@@ -503,7 +503,7 @@ c.colors.tabs.selected.even.bg = base02
 # font setting, it's replaced with the fonts listed here. If set to an
 # empty value, a system-specific monospace default is used.
 # Type: List of Font, or Font
-c.fonts.default_family = '"Andy"'
+c.fonts.default_family = '"ComicMono NF"'
 
 # Default font size to use. Whenever "default_size" is used in a font
 # setting, it's replaced with the size listed here. Valid values are
@@ -514,15 +514,15 @@ c.fonts.default_size = '19pt'
 
 # Font used in the completion widget.
 # Type: Font
-c.fonts.completion.entry = '14pt "Andy"'
+c.fonts.completion.entry = '14pt "ComicMono NF"'
 
 # Font used for the debugging console.
 # Type: Font
-c.fonts.debug_console = '12pt "Andy"'
+c.fonts.debug_console = '12pt "ComicMono NF"'
 
 # Font used for prompts.
 # Type: Font
-c.fonts.prompts = '12pt "00912"'
+c.fonts.prompts = '12pt "ComicMono NF"'
 
 # Font used in the statusbar.
 # Type: Font
